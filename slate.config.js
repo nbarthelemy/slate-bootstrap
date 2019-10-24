@@ -18,6 +18,8 @@ module.exports = {
       },
     },
   },
+  
+  // https://github.com/Shopify/slate/issues/1034
   'webpack.postcss.plugins': (config) => {
     const plugins = [];
     if (process.env.NODE_ENV === 'production') {
